@@ -3502,7 +3502,7 @@ a.em-active-button:hover {
 	font-size: 39px;
   margin-bottom: 20px;
 }
-.section-head h2 span {
+.section-head h2 span, p span {
   text-transform: capitalize;
   color: #FF3C00;
 }
