@@ -1627,6 +1627,7 @@ a.em-active-button:hover {
     height: 850px;
 }
  .carousel-slider2 .layer-image  {
+    background: url(../images/about/two.png) no-repeat center / cover scroll;
     position: absolute;
     left: 0px;
     top: 0px;
