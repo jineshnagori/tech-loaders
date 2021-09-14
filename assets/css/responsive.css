@@ -3226,21 +3226,3 @@
 }
 
 }
-
-@media screen and (max-width: 767px) {
-  .m-soon {
-    display: block !important;
-    height: 1000vh;
-    z-index: 99999 !important;
-    padding-top: 50%;
-  }
-  html {
-    overflow-y: hidden !important;
-  }
-}
-
-@media screen and (min-width: 767px) {
-  .m-soon {
-    display: none;
-  }
-}

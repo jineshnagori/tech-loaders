@@ -126,6 +126,10 @@ header {
 .header-style-two .menu-wrapper {
   padding: 35px 0;
 }
+nav {
+  display: flex;
+  align-items: center;
+}
 .menu-wrapper nav ul{
   display: inline-block;
 }
@@ -6163,8 +6167,7 @@ transform: translateX(0px);
 }
 /*right side area*/
 .service-area.style-ten {
-    background: url(../images/about/three.png);
-    background-repeat: no-repeat;
+    background-color: #f8f8f8;
 }
 .service-area.style-ten .single-service-box {
     box-shadow: 0 0 40px rgb(0 0 0 / 6%);
