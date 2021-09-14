@@ -4842,7 +4842,7 @@ transform: translateX(0px);
 .choose-area .choose-icon i:hover{
   background: #FF4806;
 }
-.choose-area .choose-content-text p {
+.choose-content-text p {
     width: 70%;
     color: #c6c6c6;
     line-height: 1.7;
@@ -4880,7 +4880,7 @@ transform: translateX(0px);
     font-family: "Fira Sans", sans-serif;
     width: 91%;
 }
-.choose-area.style-two .choose-single-box {
+.choose-single-box {
     background: #292728;
     padding: 19px 12px 17px 28px;
     transition: .5s;
@@ -4888,21 +4888,21 @@ transform: translateX(0px);
     border-radius: 7px;
     position: relative;
 }
-.choose-area.style-two .choose-title h4 {
+.choose-title h4 {
     font-size: 18px;
     margin: 0 0 7px;
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 1.6;
 }
-.choose-area.style-two .choose-single-box:hover{
+.choose-single-box:hover{
   background:#ff3b00;
   box-shadow: 0 0 27px rgb(0 0 0/20%);
 }
-.choose-area.style-two .choose-single-box:hover .choose-single-btn a{
+.choose-single-box:hover .choose-single-btn a{
   color: #fff;
 }
-.choose-area.style-two .choose-single-btn {
+.choose-single-btn {
     transform: rotate(30deg);
     position: absolute;
     bottom: 12%;

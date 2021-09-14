@@ -814,7 +814,7 @@
   .choose-area .choose-btn a {
     margin-top: 0 !important;
   }
-  .choose-area .choose-content-text p {
+  .choose-content-text p {
     width: 100% !important;
   }
   .choose-area .section-head h3,
@@ -885,7 +885,7 @@
   .feature-section.style-eleven .feature-content p {
     padding: 5px 5px 0px !important;
   }
-  .choose-area.style-two .choose-single-box {
+  .choose-single-box {
     padding: 19px 0px 17px 13px !important;
   }
   .team-area.style-two .team-member-single-thumb:before {
@@ -3134,7 +3134,7 @@
   .service-section-area.style-ten .section-head p {
     width: 94% !important;
   }
-  .choose-area .choose-content-text p {
+  .choose-content-text p {
     width: 100% !important;
   }
   .choose-area {
