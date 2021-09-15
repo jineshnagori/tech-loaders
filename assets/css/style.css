@@ -1273,6 +1273,7 @@ Itsoft Start Call Do Action Section
 .m-rs-video {
   display: inline-block;
   position: relative;
+  padding-bottom: 25%;
 }
 .animate-border a {
   left: 50%;
@@ -1365,71 +1366,52 @@ Itsoft Start Call Do Action Section
     border-width: 1px;
   }
 }
-/*call do action are style three*/
-/*-------------------
-==============Start Call Do Action Section Style Two
--------------------*/
-
-/*-------------------
-==============Start Call Do Action Section Style Three
--------------------*/
-/*-------------------
-==============Start Call Do Action Section Style Four
--------------------*/
-/*-------------------
-==============Start Call Do Action Section Style Five
--------------------*/
-/*-------------------
-============= Itsoft Start Testimonial Section
--------------------*/
-/*-------------------
-============= Start Testimonial Section Style Two
--------------------*/
-/*-------------------
-============= Start Testimonial Section Style Three
--------------------*/
-/*-------------------
-============= Start Testimonial Section Style Four
--------------------*/
-/*-------------------
-============= Start Testimonial Section Style Five
--------------------*/
-/*-------------------
-============= Start Testimonial Section Style Six
--------------------*/
-/*testimonial section style seven*/
-/*testimonial section style three topper*/
-/*testimonial style ten*/
-/*owl dots*/
-/*testimonal are style eleven*/
-/*testimonial shape*/
-/*testimonial owl dots*/
-/*-------------------
-============= Itsoft Start Blog Section
--------------------*/
-/*-------------------
-============= Start Blog Section Style Two
--------------------*/
-/*-------------------
-============= Start Blog Section Style Three
--------------------*/
-/*-------------------
-============= Start Blog Section Style Four
--------------------*/
-/*-------------------
-============= Start Blog Section Style Five
--------------------*/
-/*-------------------
-============= Start Blog Section Style Six
--------------------*/
-/*blog sevtion topper-two*/
-/*blog sevtion topper-three*/
-/*blog sevtion topper-four*/
-/*blog section style ten*/
+.breadcumb-area {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(../images/about/iab1.jpg) no-repeat center/cover;
+  height: 520px;
+  position: relative;
+}
+.breadcumb-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.breadcumb-content h1 {
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 20px;
+}
 .blog-section.style-ten .single-blog-box {
   margin-bottom: 30px;
   transition: 0.5s;
   position: relative;
+  box-shadow: 15px 0 40px rgb(0 0 0 / 0.1);
+}
+.blog-section.style-8 .blog-content {
+  box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+}
+.blog-content {
+  padding: 32px 35px 30px;
+  transition: .3s;
+  text-align: left;
+}
+.block-quote {
+  box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+  padding: 25px;
+  border-radius: 5px;
+  border-left: 4px solid #FF3C00;
+  margin: 30px 0;
+}
+.hr-3 {
+  border-top: 1px solid #e6e6e6;
+  padding-top: 15px;
+}
+.single-blog-social-icon ul {
+  margin: 25px 0;
+}
+.single-blog-social-icon ul li {
+  display: inline-block;
+  margin-right: 5px;
 }
 .blog-section.style-ten .single-blog-box:before {
   position: absolute;
@@ -1444,7 +1426,7 @@ Itsoft Start Call Do Action Section
   transition: 0.5s;
 }
 .blog-section.style-ten .single-blog-box:hover {
-  box-shadow: 15px 0 40px rgb(0 0 0 / 12%);
+  box-shadow: 15px 40px 40px rgb(0 0 0 / 12%);
 }
 .blog-section.style-ten .single-blog-box:hover:before {
   opacity: 1;
@@ -1809,7 +1791,7 @@ Itsoft Start Call Do Action Section
 
 #customers-testimonials .item {
   text-align: center;
-  padding: 0 50px;
+  padding: 50px 25px;
   margin-bottom: 80px;
   opacity: 0.2;
   transform: scale3d(0.8, 0.8, 1);
