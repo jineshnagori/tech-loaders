@@ -44,6 +44,10 @@
 	<link rel="stylesheet" href="assets/css/swiper.min.css" type="text/css" media="all">
 	<!-- Slick Slider CSS -->
 	<link rel="stylesheet" href="assets/css/slick.css" type="text/css" media="all">
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- popper js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" crossorigin="anonymous"></script>
 	<!-- modernizr js -->
 	<script type="text/javascript" src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 	<!-- jquery meanmenu js -->
@@ -136,9 +140,9 @@
 						<li><a href="#">Home</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#services">Services</a></li>
-						<li><a href="#">Project</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#testimonial">Testimonial</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -170,6 +174,13 @@
 													<i class="fa fa-play"></i>
 												</a>
 											</div>
+										</div>
+									</div>
+									<div class="m-rs-video">
+										<div class="animate-border">
+											<a class="video-vemo-icon venobox vbox-item" data-vbtype="youtube" data-autoplay="true" href="https://youtu.be/qfnoX1w1F6c">
+												<i class="fa fa-play"></i>
+											</a>
 										</div>
 									</div>
 								</div>
@@ -275,7 +286,7 @@
 							<h5>// DISCOVER OUR COMPANY</h5>
 							<h3>Bringing New IT Business</h3>
 							<h2>Solutions <span>And Ideas</span></h2>
-							<div class="section-content-text">
+							<div>
 								<p>Empowering Businesses & Helping them to grow globally across the world with the help of Top class Planned Marketing System & Best Ever Mobile & Web Applications , We are here to provide you & your sales an online boost.</p>
 							</div>
 						</div>
@@ -482,6 +493,159 @@
 		</div>
 	</div>
 	<!--==================================================-->
+	<!--Start testimonial area-->
+	<!--===================================================-->
+	<div id="testimonial" class="service-area style-ten pt-90 pb-80">
+		<div class="container">
+			<div class="section-head text-center">
+				<h5>// TESTIMONIAL</h5>
+				<h2>What Client Say?</h2>
+			</div>
+			<div class="row pt-45">
+                <div class="col-sm-12">
+                    <div id="customers-testimonials" class="owl-carousel">
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="assets/images/clients/1.jpg" alt="" />
+                                <p>Tech Loaders is very amazing agency for website creation and for website maintainance . I literally love your work specially agency owner is very responsible person.  They maintained my website properly. Their prices for creating and maintaining websites are also cheap and work is very good.</p>
+                            </div>
+                            <div class="testimonial-name">Vaibhav</div>
+                        </div>
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="assets/images/clients/2.jpg" alt="" />
+                                <p>I am delighted with the support and understanding level of your team. I loved the
+                                    timeliness of the content writers and their preciseness in writing as it is a
+                                    challenging task to write such anropriate content for my project. It was my pleasure
+                                    to work with you all. Thank you!</p>
+                            </div>
+                            <div class="testimonial-name">Manthan Kurapa</div>
+                        </div>
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="assets/images/clients/3.jpg" alt="" />
+                                <p>Fantastic job with the site. Extremely user friendly UI with fast loading and great
+                                    animations. Very fast and top notch service, would highly recommend to anyone who
+                                    needs asite.</p>
+                            </div>
+                            <div class="testimonial-name">Anurag Tiwari</div>
+                        </div>
+                        <div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="assets/images/clients/4.jpg" alt="" />
+                                <p>We had a fantastic experience working with Techiefy throughout the whole graphic
+                                    design process. They communicate clearly and with expedience. Techiefy's graphic
+                                    designers show their talent by being able to take our vision/mission and building it
+                                    into a logo that captures it precisely.</p>
+                            </div>
+                            <div class="testimonial-name">Jocob Casey</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="row pt-4 d-flex justify-content-center">
+				<div class="col-lg-2 col-4">
+					<div class="testimonial-img">
+						<img src="assets/images/clients/1.png" alt>
+					</div>
+				</div>
+				<div class="col-lg-2 col-4">
+					<div class="testimonial-img">
+						<img src="assets/images/clients/2.png" alt>
+					</div>
+				</div>
+				<div class="col-lg-2 col-4">
+					<div class="testimonial-img">
+						<img src="assets/images/clients/3.png" alt>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----START BLOG  Section ----->
+	<!--===================================================-->
+	<div id="blog" class="blog-section style-ten upper pt-100 pb-70">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-9">
+					<div class="section-head mb-10">
+						<h5>// LATEST BLOG POST</h5>
+						<h3>Read our latest insights.</h3>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="section-btn">
+						<a href="blogs/">View All <i class="fas fa-long-arrow-alt-right"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="row pt-45">
+				<div class="col-lg-4 col-md-6 d-flex justify-content-stretch">
+					<div class="single-blog-box">
+						<div class="single-blog-thumb">
+							<img src="assets/images/about/blog-1.png" alt>
+						</div>
+						<div class="single-blog-content">
+							<div class="single-blog-title">
+								<span>SEO</span>
+								<a href="blogs/how-to-rank-your-website-on-googles-first-page/"><h2>How To Rank Your Website On Google's First Page!</h2></a>
+							</div>
+							<div class="single-blog-btn">
+								<a href="blogs/how-to-rank-your-website-on-googles-first-page/">READ MORE <i class="fas fa-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 d-flex justify-content-stretch">
+					<div class="single-blog-box">
+						<div class="single-blog-thumb">
+							<img src="assets/images/about/blog-2.png" alt>
+						</div>
+						<div class="single-blog-content">
+							<div class="single-blog-title">
+								<span>TRADING</span>
+								<a href="blogs/how-to-trade-like-a-pro/"><h2>How To Trade Like A Pro?</h2></a>
+							</div>
+							<div class="single-blog-btn">
+								<a href="blogs/how-to-trade-like-a-pro/">READ MORE <i class="fas fa-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 d-flex justify-content-stretch">
+					<div class="single-blog-box">
+						<div class="single-blog-thumb">
+							<img src="assets/images/about/blog-3.png" alt>
+						</div>
+						<div class="single-blog-content">
+							<div class="single-blog-title">
+								<span>HACKATHON</span>
+								<a href="blogs/what-do-you-mean-by-hackathon/"><h2>What Do You Mean By Hackathon?</h2></a>
+							</div>
+							<div class="single-blog-btn">
+								<a href="blogs/what-do-you-mean-by-hackathon/">READ MORE <i class="fas fa-arrow-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!--Start team area-->
+	<!--===================================================-->
+	<div id="team" class="service-area style-ten pt-90 pb-80">
+		<div class="container">
+			<div class="section-head text-center">
+				<h5>// TEAM</h5>
+				<h2>MEET OUR EXPERTS</h2>
+			</div>
+			<div class="row pt-55">
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
 	<!-----START FOOTER SECTION ----->
 	<!--===================================================-->
 	<div class="footer style-ten upper pt-100 pb-60">
@@ -542,25 +706,40 @@
 	<button id="to-top">
 		<i class="fa fa-angle-up"></i>
 	</button>
-	<!--==================================================-->
-	<!-- Start Search Popup Area -->
-	<!--==================================================-->
-	<div class="search-popup">
-		<button class="close-search style-two"><i class="fas fa-times"></i></button>
-		<button class="close-search"><i class="fas fa-arrow-up"></i></button>
-		<form method="post" action="#">
-			<div class="form-group">
-				<input type="search" name="search-field" value placeholder="Search Here" required>
-				<button type="submit"><i class="fas fa-search"></i></button>
-			</div>
-		</form>
-	</div>
+
 	<!-- jquery js -->
 	<script type="text/javascript" src="assets/js/vendor/jquery-3.2.1.min.js"></script>
 	<!-- bootstrap js -->
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<!-- carousel js -->
 	<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+	<!-- Owl -->
+	<script>
+        jQuery(document).ready(function ($) {
+            "use strict";
+            $('#customers-testimonials').owlCarousel({
+                loop: true,
+                center: true,
+                items: 3,
+                margin: 0,
+                autoplay: true,
+                dots: true,
+                autoplayTimeout: 8000,
+                smartSpeed: 450,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    1170: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
 	<!-- counterup js -->
 	<script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
 	<!-- waypoints js -->
