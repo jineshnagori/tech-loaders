@@ -582,7 +582,7 @@
 				</div>
 			</div>
 			<div class="row pt-45">
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-md-6 d-flex justify-content-stretch">
 					<div class="single-blog-box">
 						<div class="single-blog-thumb">
 							<img width="100%" src="assets/images/about/blog-1.png" alt>
@@ -598,7 +598,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 d-flex">
+				<div class="col-lg-4 col-md-6 d-flex justify-content-stretch">
 					<div class="single-blog-box">
 						<div class="single-blog-thumb">
 							<img width="100%" src="assets/images/about/blog-2.png" alt>
@@ -614,7 +614,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-md-6 d-flex justify-content-stretch">
 					<div class="single-blog-box">
 						<div class="single-blog-thumb">
 							<img width="100%" src="assets/images/about/blog-3.png" alt>
@@ -642,7 +642,64 @@
 				<h5>// TEAM</h5>
 				<h2>MEET OUR EXPERTS</h2>
 			</div>
-			<div class="row pt-55">
+			<div class="row pt-45">
+				<div class="col-lg-4 col-md-6">
+				  <div class="sigma_volunteers volunteers-4">
+					<div class="sigma_volunteers-thumb">
+					  <img src="assets/images/team/1.jpg" alt="volunteers">
+					  <ul class="sigma_sm">
+						<li> <a href="#" class="trigger-volunteers-socials"> <i class="fas fa-plus"></i> </a> </li>
+						<li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+						<li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+						<li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+					  </ul>
+					</div>
+					<div class="sigma_volunteers-body">
+					  <div class="sigma_volunteers-info">
+						<h5>Rishi Malviya</h5>
+						<p>Founder & CEO</p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="sigma_volunteers volunteers-4">
+					  <div class="sigma_volunteers-thumb">
+						<img src="assets/images/team/2.jpg" alt="volunteers">
+						<ul class="sigma_sm">
+						  <li> <a href="#" class="trigger-volunteers-socials"> <i class="fas fa-plus"></i> </a> </li>
+						  <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+						  <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+						  <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+						</ul>
+					  </div>
+					  <div class="sigma_volunteers-body">
+						<div class="sigma_volunteers-info">
+							<h5>Ajay Solanki</h5>
+							<p>Managing Director</p>
+						</div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="sigma_volunteers volunteers-4">
+					  <div class="sigma_volunteers-thumb">
+						<img src="assets/images/team/3.jpg" alt="volunteers">
+						<ul class="sigma_sm">
+						  <li> <a href="#" class="trigger-volunteers-socials"> <i class="fas fa-plus"></i> </a> </li>
+						  <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+						  <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+						  <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+						</ul>
+					  </div>
+					  <div class="sigma_volunteers-body">
+						<div class="sigma_volunteers-info">
+							<h5>Tushar Vishwakarma</h5>
+							<p>Marketing Executive</p>
+						</div>
+					  </div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -656,7 +713,7 @@
 				<h2>GET IN TOUCH</h2>
 			</div>
 			<div class="row">
-				<div class="col-sm-12 col-md-6 col-lg-8 pl-0 pr-0">
+				<div class="col-sm-12 col-md-6 col-lg-8 pl-0 pr-0 d-flex justify-content-stretch">
 					<div class="contact_from_box">
 						<form id="contact_form" action="mail.php" method="POST">
 							<div class="row">
@@ -694,7 +751,7 @@
 						<p class="form-message"></p>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4 pl-0 pr-0 d-flex">
+				<div class="col-sm-12 col-md-6 col-lg-4 pl-0 pr-0 d-flex justify-content-stretch">
 					<div class="cda-content-area">
 						<div class="cda-single-content d-flex">
 							<div class="cda-icon">
@@ -811,6 +868,12 @@
             });
         });
     </script>
+	<script>
+		$("a.trigger-volunteers-socials").on('click', function(e) {
+			e.preventDefault();
+			$(this).closest('.sigma_sm').toggleClass('visible');
+		});
+	</script>
 	<!-- counterup js -->
 	<script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
 	<!-- waypoints js -->

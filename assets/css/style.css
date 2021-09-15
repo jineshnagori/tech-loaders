@@ -1,44 +1,3 @@
-/*===============================================
-
-Template Name: Itsoft - IT Solutions & Services HTML5 Template
-Version: 0.1
- 
-================================================*/
-
-/*TABLE OF CONTENTS*/
-/*=====================
-01. Itsoft Header Top Area CSS
-02. Itsoft Header middle section style
-03. Itsoft Hero Section Style
-04. Itsoft Nivo Slider Area Css
-05. Itsoft Start Tabs Section
-06. Itsoft Feature Section
-07. Itsoft Start About Section
-08. Itsoft Start Skills section
-09. ITsoft Start Video Section
-10. Itsoft Start Brand Section
-11. Itsoft Start Services Section
-12. Itsoft Start Why Choose Us Section
-13. Itsoft Start Portfolio Section
-14. Itsoft Start Fun-Fact Section
-15. Itsoft Start Team Section
-16. Itsoft Start Appoinment Section
-17. Itsoft Start Case Study Section
-18. Itsoft Start Process Section
-19. Itsoft Start Call Do Action Section
-20. Itsoft Start Testimonial Section
-21. Itsoft Start Blog Section
-22. Itsoft Start Subscribe Section
-23. Itsoft Start Footer Section
-24. Itsoft Start Footer Copyright Section
-25. Itsoft Start Breadcumb area style
-26. Itsoft Start Pricing Section Style
-27. Itsoft Start Case Study Details
-25. techno Team Details Area Css
-
-=======================*/
-
-/*------Itsoft Header Top Area CSS--------*/
 .container {
   padding-left: 0;
   padding-right: 0;
@@ -51,7 +10,6 @@ Version: 0.1
   overflow: hidden;
   position: relative;
 }
-/* smooth scrolling */
 html,
 body {
   scroll-behavior: smooth;
@@ -107,7 +65,6 @@ body {
 .header-top-area.style-two .header-top-right-icon-area ul li {
   margin-left: 34px;
 }
-/*-----Itsoft Header middle section style------*/
 header {
   background:#fff;
 }
@@ -192,8 +149,6 @@ nav {
   border: 1px solid #FF3c00;
 
 }
-
-/*-----Header middle section style ------*/
 .logo img:nth-child(2){
   display: none;
 }
@@ -224,8 +179,6 @@ nav {
 .menu-wrapper.style-two{
     padding: 37px 0 !important;
 }
-
-/*Nav btn*/
 .nav-btn a {
   background: #FF3C00;
   border: 1px solid #FF3C00;
@@ -340,16 +293,9 @@ nav {
     transform: translateX(0);
   }
 }
-
-/*====================================================
---< Itsoft Nivo Slider Area Css -->
-======================================================*/
 .text-center {
   text-align: center;
 }
-/*====================================================
- carousel slider
-======================================================*/
 .carousel-slider-section {
   position: relative;
 }
@@ -365,15 +311,6 @@ nav {
   width: 57%;
   font-size: 20px;
 }
-/*Carousel Slider Style Two*/
-/*carousel slider section style two*/
-/*Carousel Slider Style Three*/
-/*carousel slider area style four*/
-/*carousel slider style five*/
-/* carousel slider style six owl nav*/
-/* carousel slider style seven*/
-/* carousel slider style eight*/
-/* carousel slider style nine*/
 .carousel-slider2 .layer-image {
   background: url(../images/about/two.png) no-repeat center / cover scroll;
   position: absolute;
@@ -488,15 +425,12 @@ nav {
   display: inline-block;
   transition: 0.5s;
 }
-/*video section*/
 .carousel-slider-section.style-ten .rs-video {
   display: inline-block;
   position: relative;
   top: -49px;
   left: 68px;
 }
-/*owl nav*/
-/*slider shape image*/
 .carousel-slider-section.style-ten .slider-img {
   position: absolute;
 }
@@ -531,78 +465,6 @@ nav {
   top: -70px;
   animation: moveLeftBounce 2s linear infinite;
 }
-/*style fourteen*/
-/*carousel slier style fiveteen*/
-/*-----------------
-================ Start Hero Section Style Two
--------------------*/
-/*-----------------
-================ Start Hero Section Style Three
--------------------*/
-/*-----------------
-================ Start Hero Section Style Four
--------------------*/
-/*-----------------
-================ Start Hero Section Style Six
--------------------*/
-/*hero sevtion style six*/
-/*hero sevtion style eigfht*/
-/*appionment form*/
-/*-----------------
-================ Start Swiper Slider Style
--------------------*/
-/*-----------------
-================ Start Swiper Slider style Three
--------------------*/
-/*-----------------
-================ Start Swiper Slider style Four
--------------------*/
-/*-----------------
-================ Start Slick Slider
--------------------*/
-/*-----------------
-================ Start Slick Slider style Two
--------------------*/
-/*-----------------
-================ Start ccctv slider area
--------------------*/
-/*nivo slider style three*/
-/*nivo_slider_area.style-five
-*/
-/*-----------------
-================ Start nivo slider style five
--------------------*/
-/*-----------------
-================ Start nivo slider style six
--------------------*/
-/*----------------
-============== Start feature area
-------------------*/
-/*----------------
-============== Start feature style two
-------------------*/
-/*----------------
-============== Start feature style three
-------------------*/
-/*----------------
-============== Start about area
-------------------*/
-/*about shape*/
-/*about area style two*/
-/*about area style five*/
-/*about section style six*/
-/*about section upper two*/
-/*-----------------
-================ Itsoft Start Tabs Section
--------------------*/
-/*agency feature area*/
-
-/*-------------------
-============= Start Tabs Section Style Two
--------------------*/
-/*-------------
-================ Start Itsoft Feature Section
----------------*/
 .feature-content h4 {
   font-size: 20px;
   font-weight: 600;
@@ -612,33 +474,10 @@ nav {
   padding: 5px 25px 0px;
   margin: 0;
 }
-/*-------------
-================ Start Feature Section Style-Two
----------------*/
-/*-------------
-================ Start Feature Section Style-Three
----------------*/
-/*-------------
-================ Start Feature Section Style-Four
----------------*/
-/*-------------
-================ Start Feature Section Style-Five
----------------*/
-/*-------------
-================ Start Feature Section Style-Seven
----------------*/
-/*------------------
-============== Start feature-section Style seven
--------------------*/
 .single-feature-thumb img {
   width: 60px;
   transition: 0.5s;
 }
-/*------------------
-============== Start feature-section Style Eight
--------------------*/
-/*feature style nine*/
-/*feature section style eleven*/
 .feature-section.style-eleven .row.upper11 {
   position: relative;
   margin-top: -45px;
@@ -692,20 +531,6 @@ nav {
   font-size: 100px;
   color: #fff;
 }
-/*------------------
-============== Start feature-section Style Nine
--------------------*/
-/*----------------
-============== Start feature style two
-------------------*/
-/*----------------
-============== Start feature style three
-------------------*/
-/*start feature area style three upper*/
-/*start feature area style three topper*/
-/*-------------
-================ Itsoft Start About Section
----------------*/
 .section-head h5 {
   font-size: 16px;
   font-weight: 600;
@@ -736,24 +561,6 @@ p span {
   padding: 25px 0 0;
   margin: 0;
 }
-/*about area style eight*/
-/*about section style ten*/
-/*about section style eleven*/
-/* start flipx box area*/
-
-/*consulting feature area style two*/
-/*------------------
-============== Start About Sectiom Style two
--------------------*/
-/*section content text*/
-/*------------------
-============== Itsoft Start Skills section style Two
--------------------*/
-/*skill area*/
-/*--==============================================->
-    <!--Start animation-->
-  ==================================================-*/
-/* bounce-animate */
 .bounce-animate2 {
   animation-name: float-bob2;
   animation-duration: 3s;
@@ -882,40 +689,6 @@ p span {
     transform: translateY(-75px);
   }
 }
-
-/*------------------
-============== ITsoft Start Video Section
--------------------*/
-
-/*------------------
-============== ITsoft Start Video Section styel two
--------------------*/
-/*------------------
-============== ITsoft Start Video Section style three
--------------------*/
-
-/*------------------
-============== Start About Section Style Three
--------------------*/
-
-/*------------------
-============== Start About Section Style Four
--------------------*/
-/*------------------
-============== Start About Section Style Five
--------------------*/
-
-/*------------------
-============== Start About Section Style Six
--------------------*/
-/*------------------
-============== Start About Section Style Seven
--------------------*/
-/*------------------
-============== Start About Section Style Eight
--------------------*/
-/*about sevtion style nine*/
-/*about section atyle ten*/
 .about-section.style-elevent {
   background: url(../images/about/about-bg.png);
   background-size: cover;
@@ -1023,62 +796,6 @@ p span {
   margin: 23px 0 0;
   letter-spacing: 1px;
 }
-/*------------------
-============== Start choose area
--------------------*/
-/*choose area style two*/
-/*choose shape*/
-/*------------------
-============== Start Offer Section
--------------------*/
-/*------------------
-============== Itsoft Start Brand Section
--------------------*/
-/*------------------
-============== Start Brand Section Style Two
--------------------*/
-/*------------------
-============== Start Brand Section Style Two
--------------------*/
-/*------------------
-============== Itsoft Start Services Section
--------------------*/
-/*--------------------
-  ================ Start Service Section style two
- --------------------*/
-/*--------------------
-================ Start Services Section Style Three
---------------------*/
-/*--------------------
-================ Start Services Section Style Four
---------------------*/
-/*style two head*/
-/*------------------
-============== Start Service-Section Style Five
--------------------*/
-/*procces section style two*/
-/*--------------------
- ================ Service Section Style Six
---------------------*/
-/*--------------------
- ================ Service Section Style Seven
---------------------*/
-/*--------------------
- ================ Service Section Style Eight
---------------------*/
-/*--------------------
- ================ Service Section Style Nine
---------------------*/
-/*--------------------
- ================ Service Section Style Ten
---------------------*/
-/*service section style two*/
-/*service section area*/
-/*service area */
-/*service section area*/
-/*owl dots*/
-/*service section area*/
-/*service area */
 .service-area.style-ten .section-head h2 {
   font-size: 38px;
   margin-bottom: 3px;
@@ -1144,127 +861,12 @@ p span {
   font-family: "Fira Sans", sans-serif;
   width: 96%;
 }
-/*--------------------
-  == start procces area
- --------------------*/
-/*process shape*/
-/*--------------------
-  ================ counter area
- --------------------*/
-/*counter area style two*/
-/*
-Lines Area Style
-======================================================*/
-
-/*team member area*/
-/*team right side area*/
-/*team owl dots */
-/*team area style two*/
 .section-content-text p {
   margin: 16px auto 0;
   width: 53%;
   text-align: center;
   font-family: "Fira Sans", sans-serif;
 }
-/*--------------------
-  ================ Itsoft Start case area
- --------------------*/
-/*case area*/
-/*--------------------
-  ================ Itsoft Start Why Choose Us Section
- --------------------*/
-/*--------------------
-================ Start Choose Us Section Style Two
---------------------*/
-/*--------------------
-================ Start Choose Us Section Style Three
---------------------*/
-/*--------------------
-================ Start Choose Us Section Style Four
---------------------*/
-/*--------------------
-================ Itsoft Start Portfolio Section
---------------------*/
-
-/*--------------------
-================ Itsoft Start Portfolio Section Style Three
---------------------*/
-/*--------------------
-================ Itsoft Start Portfolio Section Style Four
---------------------*/
-/*--------------------
-================ Start portfolio style two
---------------------*/
-/* portfolio style three*/
-/*--------------------
-================Itsoft Start Fun-Fact Section
---------------------*/
-/*-------------------
-============= Start Counter Section style Three
--------------------*/
-/*-------------------
-============= Start Counter Section style Four
--------------------*/
-/*-------------------
-============= Start Counter Section style Four
--------------------*/
-/*counter  area style three */
-/*counter area style four*/
-/*counter area style five*/
-/*------------------
-============== Start cctv service section
--------------------*/
-/*--------------------
-================ Itsoft Start Team Section
---------------------*/
-/*team section style two*/
-/*--------------------
-================ Start Team Section Style-Two
---------------------*/
-/*--------------------
-================ Start Team Section Style-Three
---------------------*/
-/*--------------------
-================ Start Team Section Style-Four
---------------------*/
-/*--------------------
-================ Start Team Section Style-Five
---------------------*/
-/*--------------------
-================ Start Team Section Style-Six
---------------------*/
-/*--------------------
-================ Start Team Section Style-Seven
---------------------*/
-/*team member area style nine*/
-/*team member area style nine upper*/
-/*blog area atyle two */
-/*----------------
-============== Itsoft Start Appoinment Section
-------------------*/
-/*----------------
-============== Start Appoinment Section Style- Two
-------------------*/
-/*----------------
-============== Itsoft Start Case Study Section
-------------------*/
-/*section head style eight*/
-/*project-details area */
-/*-------------------
-============= Start industries area
--------------------*/
-
-/*------------------
-================ Itsoft Start Process Section
----------------------*/
-/*process section style seven*/
-/*-------------------
-Itsoft Start Call Do Action Section
--------------------*/
-/*-------------------
-==============Start Call Do Action Section Style Two
--------------------*/
-/*video*/
 .rs-video {
   display: inline-block;
   position: relative;
@@ -1386,6 +988,7 @@ Itsoft Start Call Do Action Section
   transition: 0.5s;
   position: relative;
   box-shadow: 15px 0 40px rgb(0 0 0 / 0.1);
+  width: 100%;
 }
 .blog-section.style-8 .blog-content {
   box-shadow: 0 0 15px rgb(0 0 0 / 10%);
@@ -1585,14 +1188,6 @@ Itsoft Start Call Do Action Section
   opacity: 1;
   border-radius: 30px;
 }
-/*-------------------
-============= Itsoft Start Subscribe Section
--------------------*/
-/*subscribe section style ten*/
-/*subscribe section style ten upper*/
-/*-------------------
-============= Itsoft Start Footer Section
--------------------*/
 .footer {
   background: #252628;
   color: #fff;
@@ -1650,87 +1245,6 @@ Itsoft Start Call Do Action Section
 .footer-copyright-section.upper .footer-copyright-text {
   padding: 26px 0 11px;
 }
-
-/*-------------------
-============= Inner Pages Style Start here......
-
- Itsoft Start Breadcumb area style
--------------------*/
-/*-------------------
-============= About us Two ......
--------------------*/
-/*-------------------
-============= About us Flip Box Style......
--------------------*/
-
-/*--------------------
- ================ Service Section Style Eight
---------------------*/
-
-/*--------------------
- ================ Choose Us Section Style Four 
---------------------*/
-
-/*--------------------
- ================ Itsoft Start Pricing Section Style
---------------------*/
-
-/*--------------------
-================ Start Single Service Section Style
---------------------*/
-
-/*--------------------
-================ Start Appointment Section Style
---------------------*/
-/*--------------------
-================ Start Single Member Intro Section
---------------------*/
-/*----------------
-============== Itsoft Start Case Study Details
-------------------*/
-/*----------------
-============== Start Appoinment Section Style Three
-------------------*/
-
-/*----------------
-============== Start Contact  us Section Style
-------------------*/
-
-/*----------------
-============== Start Accordion Style
-------------------*/
-
-/*----------------
-============== Start Service Style Nine at inner page 'itservices' 
-------------------*/
-/*----------------
-============== Start Web Development section at inner page
-------------------*/
-
-/*----------------
-============== Start Web Development section at inner page
-------------------*/
-
-/*----------------
-============== Start Pagination style at Blog-Grid page inner
-------------------*/
-
-/*-------------------
-============= Start Blog Section Style Six
--------------------*/
-
-/* Calender*/
-
-/*-------------------
-============= Start Blog Section Style Seven
--------------------*/
-
-/*-------------------
-============= Start Blog Section Style Eight
--------------------*/
-/*---------
-====== To-Top
--------------*/
 #to-top {
   position: fixed;
   bottom: 40px;
@@ -1835,6 +1349,7 @@ Itsoft Start Call Do Action Section
 .cda-content-area {
   background: #252628;
   padding: 20px 0;
+  width: 100%;
 }
 .cda-single-content {
   margin: 0 45px;
@@ -1865,4 +1380,349 @@ Itsoft Start Call Do Action Section
 }
 .hr {
   border-top: 1px solid rgba(238, 238, 238, 1);
+}
+.sigma_volunteers{
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0px 10px 50px 0px rgba(53,82,99,0.09);
+  margin-bottom: 30px;
+  border-bottom: 4px solid #ff3c00;
+}
+.sigma_volunteers-thumb{
+  overflow: hidden;
+}
+.sigma_volunteers-thumb img{
+  width: 100%;
+  transition: .3s;
+}
+.sigma_volunteers-thumb:hover img{
+  transform: scale(1.1);
+}
+.sigma_volunteers-body{
+  text-align: center;
+  padding: 20px;
+}
+
+.sigma_volunteers-info h5{
+  margin-bottom: 5px;
+}
+.sigma_volunteers-info p{
+  font-size: 15px;
+  line-height: 24px;
+  color: #ff3c00;
+  padding: 0;
+}
+.sigma_volunteers-info{
+  margin: 0 0 15px;
+}
+.sigma_volunteers-sm .sigma_sm{
+  justify-content: center;
+}
+.sigma_volunteers-sm .sigma_sm li a{
+  display: flex;
+  font-size: 12px;
+}
+.sigma_volunteers-sm .sigma_sm li + li{
+  margin-left: 15px;
+}
+.sigma_volunteers.volunteers-5,
+.sigma_volunteers.volunteers-4{
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 0;
+}
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb{
+  position: relative;
+  width: 200px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+}
+.sigma_volunteers.volunteers-5 .sigma_volunteers-info p,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-info p{
+  margin: 0 0 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-info h5,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-info h5{
+  margin: 0;
+}
+
+.sigma_volunteers.volunteers-4 .sigma_volunteers-info h5.text-white a{
+  color: #fff;
+}
+
+.sigma_volunteers.volunteers-4 .sigma_volunteers-info h5.text-white a:hover{
+  color: #ec6a47;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb{
+  border-radius: 50%;
+  overflow: visible;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb img,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb img{
+  border-radius: 50%;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb:hover img,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb:hover img{
+  transform: scale(1);
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm li{
+  position: absolute;
+  top: 0;
+  right: 25px;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm a,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm a{
+  color: #fff;
+  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(37, 38, 40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition-duration: .3s;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-body,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-body{
+  padding: 0;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm a.trigger-volunteers-socials,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm a.trigger-volunteers-socials{
+  border: 2px solid #fff;
+  opacity: 1;
+  visibility: visible;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm a.trigger-volunteers-socials i,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm a.trigger-volunteers-socials i{
+  transition: .3s;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm.visible a.trigger-volunteers-socials i,
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm a.trigger-volunteers-socials:hover i,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm.visible a.trigger-volunteers-socials i,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm a.trigger-volunteers-socials:hover i{
+  transform: rotate(45deg);
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm.visible a,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm.visible a{
+  opacity: 1;
+  visibility: visible;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm.visible a.trigger-volunteers-socials,
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm a:hover,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm.visible a.trigger-volunteers-socials,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm a:hover{
+  background-color: #ff3c00;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li:hover,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm li:hover{
+  opacity: 1;
+  visibility: visible;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li:nth-child(2),
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm li:nth-child(2){
+  top: 45px;
+  right: -10px;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li:nth-child(3),
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm li:nth-child(3){
+  top: 100px;
+  right: -15px;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li:nth-child(4),
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm li:nth-child(4){
+  top: 150px;
+  right: 15px;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li:nth-child(2) a,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm li:nth-child(2) a{
+  transition-delay: .1s;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li:nth-child(3) a,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm li:nth-child(3) a{
+  transition-delay: .2s;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li:nth-child(4) a,
+.sigma_volunteers.volunteers-4 .sigma_volunteers-thumb .sigma_sm li:nth-child(4) a{
+  transition-delay: .3s;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb img{
+  border-radius: 0;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  flex-direction: column;
+}
+
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li:nth-child(4),
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li:nth-child(3),
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li:nth-child(2),
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li{
+  position: relative;
+  top: auto;
+  right: auto;
+}
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li + li{
+  margin: 0;
+}
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li a{
+  border-radius: 0;
+  background-color: #fff;
+  color: rgb(37, 38, 40);
+}
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm li a:hover{
+  color: #fff;
+}
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb .sigma_sm a.trigger-volunteers-socials{
+  border: 0;
+}
+.sigma_volunteers.volunteers-5 .sigma_volunteers-thumb{
+  width: auto;
+  margin: 0;
+}
+.sigma_volunteers.volunteers-5 .sigma_volunteers-info{
+  margin: 0;
+}
+.sigma_volunteers.volunteers-5 .sigma_volunteers-body{
+  padding: 20px;
+  background-color: #fff;
+}
+.sigma_volunteers.volunteers-5 .sigma_volunteers-info h5{
+  font-size: 20px;
+}
+
+
+/*----- volunteers Details----- */
+
+.sigma_volunteer-detail .sigma_member-image{
+  position: relative;
+  overflow: hidden;
+  height: 550px;
+}
+
+.sigma_volunteer-detail .sigma_member-image img{
+  width: 100%;
+}
+
+.sigma_volunteer-detail .sigma_volunteer-detail-category{
+  color: #ff3c00;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sigma_volunteer-detail .sigma_member-name{
+  margin-bottom: 12px;
+}
+
+.sigma_volunteer-detail .sigma_volunteer-detail-info{
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #efefef;
+  margin-bottom: 0;
+}
+
+.sigma_volunteer-detail .sigma_volunteer-detail-info li{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 0;
+}
+
+.sigma_volunteer-detail .sigma_volunteer-detail-info li i{
+  font-size: 20px;
+  color: #ff3c00;
+  margin-right: 30px;
+  width: 15px;
+}
+.sigma_volunteer-detail .sigma_volunteer-detail-info li + li{
+  margin-top: 20px;
+}
+.sigma_volunteer-detail .sigma_volunteer-detail-info li .title{
+  color: rgb(37, 38, 40);
+  font-weight: 600;
+  padding-right: 12px;
+}
+
+.sigma_volunteer-detail .sigma_volunteer-detail-info li a{
+  color: #777;
+}
+.sigma_volunteer-detail .sigma_volunteer-detail-info li a:hover{
+  color: #ff3c00;
+}
+
+.sigma_volunteer-detail .sigma_volunteer-detail-info.has-element li{
+   flex-direction: column;
+   align-items: flex-start;
+   padding-left: 40px;
+   position: relative;
+   font-size: 16px;
+   padding-bottom: 20px;
+}
+
+.sigma_volunteer-detail .sigma_volunteer-detail-info.has-element li + li{
+  margin-top: 0;
+}
+
+.sigma_volunteer-detail .sigma_volunteer-detail-info.has-element li:last-child{
+  padding-bottom: 0;
+}
+
+.sigma_volunteer-detail .sigma_volunteer-detail-info.has-element li:before{
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 3px;
+  height: 100%;
+  border-radius: 0;
+  background-color: #ff3c00;
+}
+
+.sigma_volunteer-detail .sigma_volunteer-detail-info.has-element li:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ff3c00;
+}
+
+.sigma_volunteer-detail .sigma_volunteer-detail-info.has-element li:last-child:before{
+  content: none;
+}
+
+li::marker{
+  content: "";
 }
