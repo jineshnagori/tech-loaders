@@ -129,7 +129,7 @@
 				<div class="m-logo">
 					<a href="#"><img src="assets/images/logo2.svg" alt="logo"></a>
 				</div>
-				<div class="logo"> 
+				<div class="logo">
 					<a href>
 						<img src="assets/images/logo.svg" alt="logo">
 						<img src="assets/images/logo2.svg" alt="logo">
@@ -146,6 +146,10 @@
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
+				<div class="menu-toggle">
+					<span class="open_bar"><i class="fas fa-bars"></i></span>
+					<span class="close_bar"><i class="fas fa-times"></i></span>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -834,6 +838,22 @@
 		$("a.trigger-volunteers-socials").on('click', function(e) {
 			e.preventDefault();
 			$(this).closest('.sigma_sm').toggleClass('visible');
+		});
+	</script>
+	<script>
+		//Toggle Nav for mobile  menu
+		$('.open_bar').click(function(){
+        	$('nav').addClass('active-nav');
+        	$('.menu-toggle').addClass('closee');
+    	});
+    	$('.close_bar').click(function(){
+        	$('nav').removeClass('active-nav');
+        	$('.menu-toggle').removeClass('closee');
+    	});
+		$(document).ready(function () {
+			$(".active-nav li a").click(function(event) {
+				$(".navbar-collapse").collapse('hide');
+			});
 		});
 	</script>
 	<!-- counterup js -->

@@ -299,7 +299,6 @@
   .menu-wrapper nav {
     position: absolute;
     background: #f8f8f8;
-    width: 170px !important;
     transition: 0.5s;
     top: 60px;
     left: -100%;
@@ -403,10 +402,6 @@
     background: url(../images/about/banner-4.jpg) no-repeat center / cover
       scroll !important;
   }
-  header .container {
-    display: flex;
-    justify-content: center;
-  }
   .carousel-slider2 .container {
     padding-bottom: 60%;
   }
@@ -418,6 +413,14 @@
   }
   .breadcumb-content h1 {
     font-size: 31px !important;
+  }
+  .menu-toggle {
+    display: block !important;
+  }
+  .active-nav {
+    left: 0 !important;
+    margin-top: 13% !important;
+    width: 100% !important;
   }
 }
 
