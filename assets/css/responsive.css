@@ -293,7 +293,6 @@
     display: none !important;
   }
   .menu-wrapper {
-    padding: 30px 0 !important;
     overflow: hidden !important;
   }
   .menu-wrapper nav {
@@ -403,7 +402,7 @@
       scroll !important;
   }
   .carousel-slider2 .container {
-    padding-bottom: 60%;
+    padding-bottom: 15%;
   }
   .breadcumb-area {
     height: 370px !important;
@@ -423,7 +422,10 @@
     width: 100% !important;
   }
   .menu-toggle span {
-    margin-top: 7%;
+    margin-top: 3%;
+  }
+  .uk-sticky-placeholder {
+    height: max-content !important;
   }
 }
 
