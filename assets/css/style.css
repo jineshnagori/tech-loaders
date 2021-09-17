@@ -15,6 +15,14 @@ body {
   scroll-behavior: smooth;
 }
 
+#about, #choose, #team, #contact {
+  background-color: #f8f8f8 !important;
+}
+
+#services, #testimonial, #blog {
+  background-color: #fff !important;
+}
+
 .header-top-area::before {
   content:"";
   height: 100%;
