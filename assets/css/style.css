@@ -984,7 +984,6 @@ p span {
   margin-bottom: 30px;
   transition: 0.5s;
   position: relative;
-  box-shadow: 15px 0 40px rgb(0 0 0 / 0.1);
   width: 100%;
 }
 .blog-section.style-8 .blog-content {
@@ -1080,7 +1079,6 @@ p span {
 }
 .blog-section.style-ten .single-blog-content {
   background: #fff;
-  box-shadow: 15px 0 40px rgb(0 0 0 / 3%);
   padding: 27px 21px 32px 30px;
 }
 .blog-section.style-ten .single-blog-title a h2:hover {
