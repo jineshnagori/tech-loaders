@@ -1694,6 +1694,11 @@ p span {
   padding-bottom: 0;
 }
 
+button:focus {
+  outline: none!important;
+  box-shadow: none!important;
+}
+
 .sigma_volunteer-detail .sigma_volunteer-detail-info.has-element li:before{
   content: "";
   position: absolute;
