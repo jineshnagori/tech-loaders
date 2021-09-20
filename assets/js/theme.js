@@ -28,68 +28,6 @@ $(document).ready(function(){
         nextText: '<i class="fa fa-angle-right nivo-next-icon"></i>'
      });
     // Brand Active
-    $('.slider-carousel').owlCarousel({
-         loop: true,
-         autoplay: false,
-         autoplayTimeout: 6000,
-         smartSpeed:1500,
-         dots: false,
-         dotsEach: false,
-         nav:true,
-         navText: [" <i class='fas fa-angle-left'></i>" , "<i class='fas fa-angle-right'></i>"],
-         responsive: {
-             0: {
-                 items: 1
-             },
-             768: {
-                 items: 1
-             },
-             992: {
-                 items: 1
-             },
-             1000: {
-                 items: 1
-             },
-             1199: {
-                 items: 1
-             },
-             1920: {
-                 items: 1
-            }
-        }
-    });
-    // Brand Active
-    $('.slider-carousel2').owlCarousel({
-         loop: true,
-         autoplay: false,
-         autoplayTimeout: 6000,
-         smartSpeed:1500,
-         dots: false,
-         dotsEach: false,
-         nav:true,
-         navText: [" <i class='fas fa-long-arrow-alt-left'><span>01</span>" , " <span>02</span><i class='fas fa-long-arrow-alt-right'></i>"],
-         responsive: {
-             0: {
-                 items: 1
-             },
-             768: {
-                 items: 1
-             },
-             992: {
-                 items: 1
-             },
-             1000: {
-                 items: 1
-             },
-             1199: {
-                 items: 1
-             },
-             1920: {
-                 items: 1
-            }
-        }
-    });
-    // Brand Active
     $('.brand-carousel').owlCarousel({
          loop: true,
          autoplay: true,
